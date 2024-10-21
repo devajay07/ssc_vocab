@@ -1,0 +1,3 @@
+[build]
+language = "python"
+entrypoint = "python app.py"  # Adjust this to your main file if it's named differently
