@@ -1,8 +1,11 @@
 from flask import Flask, render_template, jsonify, session
 import random
 from flask_session import Session
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)
 
 # Set a secret key for session management
 app.secret_key = 'supersecretkey'
