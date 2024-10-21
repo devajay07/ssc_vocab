@@ -64,4 +64,4 @@ traitlets==5.10.1
 tzdata==2023.4
 wcwidth==0.2.8
 Werkzeug==3.0.4
-gunicorn -b 0.0.0.0:5000 app:app
+gunicorn==20.1.0
