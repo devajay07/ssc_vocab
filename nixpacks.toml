@@ -1,3 +1,5 @@
 [build]
-language = "python"
-entrypoint = "python app.py"  # Adjust this to your main file if it's named differently
+command = "pip install -r requirements.txt"
+
+[run]
+command = "gunicorn -b 0.0.0.0:5000 app:app"  # Replace 'app:app' as necessary
